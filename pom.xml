@@ -27,7 +27,7 @@
 
     <profiles>
         <profile>
-            <id>packagecloud</id>
+            <id>nexus_distro</id>
             <distributionManagement>
                 <snapshotRepository>
                     <id>nexus-snapshot</id>
@@ -38,9 +38,6 @@
                     <url>http://localhost:8081/repository/nexus-release/</url>
                 </repository>
             </distributionManagement>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
         </profile>
     </profiles>
 </project>
